@@ -1,6 +1,6 @@
 # Project Title
 
-Profit loss calculator app
+Stock Calculator App
 
 
 # Project Description
