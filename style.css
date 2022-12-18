@@ -1,9 +1,63 @@
+:root {
+    --sky-blue: #91ffff;
+  
+  }
+
+  #output-el {
+    font-family: cursive;
+    margin-top: 1rem;
+  }
+
+  input{
+    font-size: large;
+    display: block;
+    outline: black;
+    padding: 0.6rem 1rem;
+    margin: 1rem auto;
+    margin-bottom: 0rem;
+    border: 2px solid black;
+    border-radius: 0.5rem;
+    width: 80%;
+    max-width: 300px;
+}
+
+main{
+    display: block;
+    font-size: x-large;
+}
+
+button{
+    margin: auto;
+    width: fit-content;
+    margin-bottom: 1rem;
+    background-color: rgb(241, 232, 232);
+ color: rgb(15, 12, 12);
+    border-color : rgb(19, 18, 18);
+    border-radius: 2rem;
+    padding: 0.5rem;
+    font-size: larger;
+}
+
+
 body {
     text-align: center;
+    background-color: var(--sky-blue)
 }
 
 label {
     display: block;
+    margin: 2rem 0px;
+    font-weight: 600;
     padding: 1rem;
 }
+
+#initial-price{
+    margin-bottom: -2rem;
+}
+
+#stock-quantity {
+    margin-bottom: -2rem;
+}
+
+
 
