@@ -16,3 +16,8 @@ HTML, CSS, Javascript
 # Live Project
 
 https://stockzcalculator.netlify.app/
+
+# Screen Shots
+
+![stockcalculator](https://user-images.githubusercontent.com/116138513/208688288-2ab8679c-e1d6-4c96-b62b-d1dafb4175f2.PNG)
+
