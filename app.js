@@ -23,7 +23,7 @@ function checkProfitAndLoss (initial,quantity,current){
     loss = loss.toFixed(2);
 
     var lossPercentage = (loss/initial) * 100;
-     lossPercentage = lossPercentage.toFixed(2);
+     lossPercentage =  Math.round(lossPercentage.toFixed(2));
 
  showOutput ( " Hey the loss is " + loss + " and the percent is " + lossPercentage+"%" )
 
@@ -35,7 +35,7 @@ function checkProfitAndLoss (initial,quantity,current){
 
 
     var profitPercentage = (profit/initial) * 100;
-    profitPercentage = profitPercentage.toFixed(2);
+    profitPercentage = Math.round(profitPercentage.toFixed(2));
 
     showOutput  ( " Hey the profit is " + profit + " and the percent is " + profitPercentage+"%" )
 
